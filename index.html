@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google fonts raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Order Confirmation</title>
+
+    <style>
+      body {
+        font-family: "Raleway", sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        color: #292d32c2;
+        font-size: 16px;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .header {
+        text-align: center;
+        padding-top: 60px;
+      }
+      .header h2 {
+        font-size: 20px;
+        color: #292d32;
+        font-weight: 600;
+        padding-top: 20px;
+      }
+      .content {
+        margin-top: 40px;
+        padding: 0px 40px;
+        column-gap: 2rem;
+        display: flex;
+        flex-direction: column;
+      }
+      .footer {
+        margin-top: 50px;
+        padding: 40px;
+        background-color: #92c46a;
+        color: #fff;
+      }
+      .sender-name {
+        font-weight: 700;
+      }
+      .social-icon {
+        display: flex;
+        align-items: center;
+        column-gap: 0.75rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <!-- Company logo -->
+        <img src="./assets/bzm-logo.png" alt="Company Logo" />
+        <h2>Your image has been uploaded.</h2>
+      </div>
+
+      <div class="content">
+        <p>Dear Abcde,</p>
+        <p>
+          Thank you for your recent order. We would like to confirm that your
+          order has been successfully received and is currently being processed.
+        </p>
+        <p>Below are the details of your order:</p>
+        <ul>
+          <li>Order Number: #3231232</li>
+          <li>Image Qty: 5</li>
+          <li>
+            Instruction: Please remove the background from each image while
+            maintaining the integrity and quality of the main subject.
+          </li>
+        </ul>
+        <p>
+          If you have any questions regarding your order or need further
+          assistance, feel free to reply to this email.
+        </p>
+        <p>
+          - <span class="sender-name">bZm Graphics</span
+          ><br />hello@bzmgraphics.com
+        </p>
+      </div>
+
+      <div class="footer">
+        <p>
+          This message was mailed to [abcd@gmail.com] by bZm Graphics as part of
+          your editing subscription.
+        </p>
+        <!-- social media icons -->
+        <div class="social-icon">
+          <a href="https://www.facebook.com/bzmgraphic" target="_blank">
+            <img src="./assets/facebook.png" alt="Facebook Icon" />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/bzm-graphics"
+            target="_blank"
+          >
+            <img src="./assets/linkedin.png" alt="Linkedin Icon" />
+          </a>
+          <a href="https://www.instagram.com/bzmgraphics" target="_blank">
+            <img src="./assets/instagram.png" alt="Instagram Icon" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
